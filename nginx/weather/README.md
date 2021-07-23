@@ -16,5 +16,9 @@ at that location<br>
 Linux command:<br>
 sudo mkdir /usr/lib/cgi-bin/
 
-sudo cp test.cgi /usr/lib/cgi-bin/  
-cd /usr/lib/cgi-bin/
+sudo cp dht /usr/local/bin
+cd /usr/lib/cgi-bin/  
+sudo chown root:root dht  
+sudo chmod ugo+s dht  
+ls -l dht  
+-rwsr-sr-x 1 root root 9360 Oct 11 15:36 dht
