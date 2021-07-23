@@ -16,4 +16,5 @@ at that location<br>
 Linux command:<br>
 sudo mkdir /usr/lib/cgi-bin/
 
-sudo cp test.cgi /usr/lib/cgi-bin/  cd /usr/lib/cgi-bin/
+sudo cp test.cgi /usr/lib/cgi-bin/  
+cd /usr/lib/cgi-bin/
