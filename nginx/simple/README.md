@@ -1,16 +1,16 @@
 Configuring an Nginx Web Server
-Nginx can be confi gured using the fi les in /etc/nginx/ where the core confi
+Nginx can be configured using the fi les in /etc/nginx/ where the core confi
 guration fi les are as follows:
 
-■ nginx.conf is the main confi guration fi le for the server.
+■ nginx.conf is the main configuration file for the server.
 
-■ The sites-available directory contains the confi guration fi les for any
+■ The sites-available directory contains the confi guration files for any
 virtual sites, and the sites-enabled directory should contain a symbolic
 link to a confi guration fi le in the sites-available directory, to activate
 a site.
 
 Most of the confi guration changes are performed on the default
-fi le entry in the sites-available directory.
+file entry in the sites-available directory.
 
 In addition to the confi guration fi les, the functionality of Nginx can be further
 extended (e.g., to provide Python support) with the use of modules. You
@@ -26,3 +26,11 @@ TLS SNI support enabled ...
 Creating Web Pages and Web Scripts
 To create a simple web page for the RPi web server, you can use the nano editor
 and some basic HTML syntax as shown in index.html file
+
+Linux Commands:
+pi@erpi /var/www/html $ sudo nano index.html
+pi@erpi /var/www/html $ more index.html
+<HTML><TITLE>RPi First Web Page</TITLE>
+<BODY><H1>RPi First Page</H1>
+The Raspberry Pi test web page.
+</BODY></HTML>
