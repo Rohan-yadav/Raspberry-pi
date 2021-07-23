@@ -29,12 +29,5 @@ and some basic HTML syntax as shown in index.html file
 
 Linux Commands:
 pi@erpi /var/www/html $ sudo nano index.html
-pi@erpi /var/www/html $ more index.html
 
-"<HTML><TITLE>RPi First Web Page</TITLE>"
-  
-"<BODY><H1>RPi First Page</H1>"
-  
-The Raspberry Pi test web page.
-  
-</BODY></HTML>
+
