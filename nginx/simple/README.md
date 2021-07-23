@@ -28,9 +28,9 @@ To create a simple web page for the RPi web server, you can use the nano editor
 and some basic HTML syntax as shown in index.html file
 
 Linux Commands:
-pi@erpi /var/www/html $ sudo nano index.html
-pi@erpi /var/www/html $ more index.html
-<HTML><TITLE>RPi First Web Page</TITLE>
-<BODY><H1>RPi First Page</H1>
-The Raspberry Pi test web page.
+pi@erpi /var/www/html $ sudo nano index.html/n
+pi@erpi /var/www/html $ more index.html/n
+<HTML><TITLE>RPi First Web Page</TITLE>/n
+<BODY><H1>RPi First Page</H1>/n
+The Raspberry Pi test web page./n
 </BODY></HTML>
